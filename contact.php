@@ -1,17 +1,12 @@
 <?php
-    $name = $_POST['name'];
-    $visitor_email = $_POST['email'];
-    $message = $_POST['message'];
+    $name = $_REQUEST['name'];
+    $visitor_email = $_REQUEST['email'];
+    $message = $_REQUEST['message'];
 
-    $email_from = 'kangji1999@utexas.edu';
-    $email_subject = "New Form Submission";
-    $email_body = "User Name: $name.\n".
-                "User email: $visitor_email.\n".
-                "User message: $message.\n".
-    $to = "kangji1999@utexas.edu";
-    $headers = "From: $email_from \r\n";
-    $headers .= "Reply-To $visitor_email\r\n";
-    mail($to,$email_subject,$email_body,$headers);
-    header("Location: email.html");
+    mail("kangji1999@utexas.edu","Personal Website Message",$message,"From: $name<$visitor_email>");
+    echo"<script type = 'text/javascript'>alert('your message sent successfully')
+    window.history.log(-1);
+    </script>";
+
 ?>
 
