@@ -4,7 +4,7 @@
     --box-color: rgba(19, 3, 26, 0.13);
 }
 * { 
-    transition: 120ms;
+    transition: 100ms;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -12,7 +12,6 @@ body {
     margin: 0px;
     width: 100vw;
     height: 100vh;
-    background-color: white;
 }
 
 .my_website {
@@ -24,13 +23,13 @@ body {
 .personal_info_container {
     width: 25%;
     height: 100%;
-    background-color: none;
+    background-color: orange;
 }
 
 .project_extra_container {
     width: 75%;
     height: 100%;
-    background-color: #242423;
+    background-color: none;
 }
 
 .box_about {
@@ -83,7 +82,7 @@ body {
 .linkedin_icon_container {
     width: 100%;
     height: 22%;
-    background-color: #121212;
+    background-color: rgb(191, 87, 0);
     font-size: 4em;
 }
 
@@ -94,7 +93,7 @@ body {
 .github_icon_container {
     width: 100%;
     height: 22%;
-    background-color: #121212;
+    background-color: rgb(191, 87, 0);
     font-size: 4em;
 }
 
@@ -105,7 +104,7 @@ body {
 .ins_icon_container {
     width: 100%;
     height: 22%;
-    background-color: #121212;
+    background-color: rgb(191, 87, 0);
     font-size: 4em;
 }
 
@@ -116,7 +115,7 @@ body {
 .email_icon_container {
     width: 100%;
     height: 22%;
-    background-color: #121212;
+    background-color: rgb(191, 87, 0);
     font-size: 4em;
 }
 
@@ -128,15 +127,13 @@ body {
 .about_me {
     width: 75%;
     height: 100%;
-    background-color: palegreen;
+    background-color: black;
 }
 
 .text_box {
-    margin: 1em;
-    padding: 1em;
     width: 75%;
     height: 75%;
-    background-color: transparent
+    background-color: whitesmoke;
 }
 
 .email_box {
